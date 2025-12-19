@@ -849,13 +849,13 @@ section {
 .footer {
     background: var(--dark-color);
     color: white;
-    padding: 60px 20px 20px;
+    padding: 30px 10px 10px;
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 40px;
+    gap: 10px;
     margin-bottom: 40px;
 }
 
@@ -871,7 +871,9 @@ section {
 
 .footer-section p {
     color: #ccc;
-    line-height: 1.8;
+    line-height: 1.2;
+    text-align: left;
+    font-size: 0.8rem;
 }
 
 .footer-section ul {
